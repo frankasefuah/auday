@@ -4743,7 +4743,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808849e3', e
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 	
-}
+
 #btn-close-x {
 	width: 100px;
 	height: 100px;
@@ -5573,7 +5573,7 @@ p.intro {
 .owl-arrow .prev:before, .owl-arrow .next:before {
 	font-family: "FontAwesome";
 	content: '\f177';
-	color: #2;
+	/* color: #2; */
 	padding: 20px;
 	font-size: 32px;
 	display: block;
