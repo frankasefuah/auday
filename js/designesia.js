@@ -1,5 +1,5 @@
 /* --------------------------------------------------
- * Â© Copyright 2019 - Invitex by Designesia
+ * © Copyright 2019 - Invitex by Designesia
  * --------------------------------------------------*/
 (function($) {	
 	'use strict';

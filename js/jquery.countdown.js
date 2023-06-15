@@ -4,7 +4,7 @@
    Available under the MIT (https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt) license. 
    Please attribute the author if you use it. */
 
-   (function($) { // Hide scope, no $ conflict
+(function($) { // Hide scope, no $ conflict
 
 	var pluginName = 'countdown';
 

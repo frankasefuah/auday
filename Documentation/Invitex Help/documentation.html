@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documentation</title>
+
+
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+
+	<section class="bg-color">
+        	<div class="row">
+            	<div class="col-md-3">
+            	  <h1><img src="logo.png" class="img-responsive" alt="" /></h1>
+           	  </div>
+                <div class="col-md-7">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to ask via item's comments. Also please don't forget to give item ratings! Thanks so much! :)
+</div>
+                <div class="col-md-2 text-right"><a class="btn btn-primary mt15" href="http://themeforest.net/user/designesia/portfolio">View All Our Items</a></div>
+            </div>
+    </section>
+    
+    <section>
+		<h2>Basics</h2>
+		
+    	<div class="expand">
+			<div class="title">HTML Structure</div>
+			<div class="content">This template using Bootstrap framework. Main content is placed between header and footer area. The content is nested within <strong>&lt;div id=&quot;content&quot;&gt;</strong>. 
+            
+            <pre>... header area ...
+
+&lt;div id=&quot;<strong>content</strong>&quot;&gt;
+     &lt;div class=&quot;<strong>container</strong>&quot;&gt;
+          &lt;div class=&quot;<strong>row</strong>&quot;&gt;
+               &lt;div class=&quot;<strong>col-md-4</strong>&quot;&gt;
+                    this is your content			
+               &lt;/div&gt;
+               &lt;div class=&quot;<strong>col-md-8</strong>&quot;&gt;<strong>
+</strong>                    this is your content
+               &lt;/div&gt;
+          &lt;/div&gt;
+     &lt;/div&gt;
+
+     &lt;section&gt;
+          &lt;div class=&quot;<strong>container</strong>&quot;&gt;
+               &lt;div class=&quot;<strong>row</strong>&quot;&gt;
+                    this is your content
+               &lt;/div&gt;
+          &lt;/div&gt;
+     &lt;/section&gt;
+
+&lt;/div&gt;
+
+
+... footer area ...
+        </pre>
+            
+            </div>
+		</div>
+		
+		<div class="expand">
+			<div class="title">Create Columns</div>
+			<div class="content">
+            For a simple two column layout, create a <strong>.row</strong> and add the appropriate number of <strong>.col-md-*</strong> columns. As this is a 12-column grid, each <strong>.col-md-*</strong> spans a number of those 12 columns, and should always add up to 12 for each row (or the number of columns in the parent).
+Click <a href="http://getbootstrap.com/2.3.2/scaffolding.html">here</a> for more information.
+      <pre>&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-6</strong>&quot;&gt; this is 1/2 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-6</strong>&quot;&gt; this is 1/2 columns &lt;/div&gt;<br>&lt;/div&gt;
+
+&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-4</strong>&quot;&gt; this is 1/3 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-8</strong>&quot;&gt; this is 2/3 columns &lt;/div&gt;<br>&lt;/div&gt;
+
+&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-3</strong>&quot;&gt; this is 1/4 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-9</strong>&quot;&gt; this is 3/4 columns &lt;/div&gt;<br>&lt;/div&gt;</pre>
+			</div>
+		</div>
+		
+		
+        
+	</section>
+    
+	<section>
+		<h2>General Settings</h2>
+		<div class="expand">
+			<div class="title">Change wide/boxed layout</div>
+			<div class="content">
+			  <p>Open file <strong>designesia.js</strong> then change <strong>de_boxed_style</strong> value. </p>
+			  <p>Value: 1 - on, 0 - off</p>
+			</div>
+		</div>
+		
+    	<div class="expand">
+			<div class="title">Change header style</div>
+			<div class="content">
+			  <p>Open file <strong>designesia.js</strong> then change <strong>de_header_style</strong> value. </p>
+			  <p>Value: 1 - solid, 2 - transparent</p>
+			</div>
+		</div>
+		
+		<div class="expand">
+			<div class="title">Change color</div>
+			<div class="content">
+			  <p>Open file <strong>designesia.js</strong> then change<strong> de_header_color </strong>value. </p>
+			  <p>Value: 1 - dark, 2 - light</p>
+			</div>
+		</div>
+		
+		<div class="expand">
+			<div class="title">Change menu separator</div>
+			<div class="content">
+			  <p>Open file <strong>designesia.js</strong> then change <strong>de_menu_separator </strong> value. </p>
+			  <p>Value: 1 - dotted, 2 - border, 3 - circle, 4 - square, 5 - plus, 6 - strip, 0 - none</p>
+			</div>
+		</div>
+		
+		<div class="expand">
+			<div class="title">Set how many schedule columns seen in a row</div>
+			<div class="content">
+			  <p>Open file <strong>designesia.js</strong> then change <strong>schedule_columns </strong> value. </p>
+			</div>
+		</div>
+        
+	</section>
+    
+    <section>
+    	<h2>CSS</h2>
+        
+        <div class="expand">
+			<div class="title">List of CSS files</div>
+			<div class="content">
+            	<ul>
+                	<li><strong>animate.css</strong> - used to make animation </li>
+                	<li><strong>bg.css</strong> - used to set background for all section and subheader</li>
+                    <li><strong>bootstrap.css</strong> - main css framework for this theme</li>
+                    <li><strong>color.css</strong> - used to load color for template</li>
+                    <li><strong>magnific-popup.css</strong> - for maginfic popup jquery</li>
+                    <li><strong>owl.carousel.css, owl.theme.css, owl.transitions.css</strong> - for owl carousel jquery</li>
+                    <li><strong>plugin.css</strong> - overwrite default plugin css</li>
+                    <li><strong>rev-settings.css</strong> - custom css for Revolution Slider</li>
+                    <li><strong>style.css</strong> - main css file for this template</li>
+                </ul>
+            </div>
+		</div>
+        
+        <div class="expand">
+			<div class="title">Change accent color</div>
+			<div class="content">To change accent color with premade color, open file <strong>css/color.css</strong> then replace value inside "colors/green.css" with other css file name.<br /> All premade color on this template can be found inside folder <strong>css/color/</strong>.</div>
+		</div>
+        	
+        <div class="expand">
+			<div class="title">Background settings for section and subheader</div>
+			<div class="content">All section/subheader background on this template can be edited within file css/bg.css</div>
+		</div>
+    
+    </section>
+	
+	<section>
+		<h2>Javascript</h2>
+		
+    	<div class="expand">
+			<div class="title">List of javascipt files</div>
+			<div class="content">
+				<ul>
+				  <li><strong>jquery.min.js</strong> - http://docs.jquery.com/Downloading_jQuery</li>
+					<li><strong>bootstrap.min.js</strong> - bootstrap js file</li>
+					<li><strong>designesia.js</strong> - custom js file</li>
+					<li><strong>jquery.isotope.min.js</strong> - used in gallery page</li>
+					<li><strong>jquery.magnific-popup.min.js</strong> - used to open popup image</li>
+					<li><strong>easing.js</strong> - http://archive.plugins.jquery.com/project/Easing</li>
+					<li><strong>jquery.ui.totop.js</strong> - used to scroll to top</li>
+					<li><strong>validation.js</strong> - used for contact form validation</li>
+			  </ul>
+			</div>
+		</div>
+		
+		<div class="expand">
+			<div class="title">Animate object on scroll</div>
+			<div class="content">Open file <strong>designesia.js</strong> then change <strong>logo_dir_1</strong> value.<br>
+			<p>Select an object that you want to animate. As example you want create animate for H1 element. You can see below:        </p>
+        <pre>&lt;h1 class=<strong>&quot;wow fadeIn&quot;</strong> data-wow-delay=<strong>&quot;.2s&quot; data-wow-duration=&quot;.5s&quot;</strong>&gt;Animate Text&lt;/h1&gt;
+</pre>
+        <ul>
+          <li>You must add class name &quot;<strong>wow</strong>&quot; for object that you want to animate.
+          </li>
+          <li><strong>fadeIn</strong>: sample type of animation. You can see all animation available from: <a href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a></li>
+          <li><strong>data-wow-delay</strong>: determine when animation will start (on second)</li>
+		  <li><strong>data-wow-duration</strong>: determine duration of animation (on second)</li>
+        </ul>
+			</div>
+		</div>
+		
+		<div class="expand">
+			<div class="title">Create parallax background</div>
+			<div class="content">
+            	<ol>
+   <li>
+             Create a section tag then give it an id name.
+               <pre>&lt;section <strong>id</strong>=&quot;my-section&quot;&gt;...content here...&lt;/section&gt;</pre>
+          </li>
+            <li>
+               Add attribute data-stellar-background-ratio for scroll speed.
+                 <pre>&lt;section <strong>id</strong>=&quot;my-section&quot; data-stellar-background-ratio=&quot;.2&quot;&gt;...content here...&lt;/section&gt; </pre></li>
+            <li>
+               Open <strong>bg.css</strong> file, set background image  for your section.
+               <pre>#my-section{
+     background-image:my-bg-image.jpg;
+}</pre>
+            </li>
+            <li> Done.      </li>
+        </ol>
+			</div>
+		</div>
+		
+        <div class="expand">
+			<div class="title">Change contact form email address </div>
+			<div class="content">Open &gt; <strong>email.php</strong>. Change<strong> $to</strong> value with your email.</div>
+		</div>
+        
+	</section>
+</body>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/custom.js"></script>
+
+</html>
