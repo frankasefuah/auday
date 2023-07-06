@@ -106,6 +106,14 @@ body.boxed {
 	overflow: visible;
 }
 
+/* .btn-youtube-link {
+	background-color: #ffa854;
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	margin: 0 auto;
+	display: inline-block;
+} */
 /* ================================================== */
 
 
@@ -1123,6 +1131,14 @@ header.header-light .logo-2{
 	color: #ffa854;
 	padding-top:20px;
 }
+#submit {
+	display: flex;
+	border-radius: 0%;
+}
+.video-link {
+	display: flex;
+	justify-content: center!important;
+}
 .success {
 	clear:both;
 	display: none;
@@ -1411,7 +1427,7 @@ a:hover {
 	color: #fff;
 }
 .de_light a {
-	color: #888;
+	color: rgb(255, 255, 255);
 }
 .de_light a:hover {
 	color: #555;
