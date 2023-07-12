@@ -5093,6 +5093,7 @@ footer .widget_list li a {
 	width:160px;
 	display:block;
 	padding:5px;
+	white-space: nowrap;
 	border-radius:10px 0 0 10px;
 	-moz-border-radius:10px 0 0 10px;
 	-webkit-border-radius:10px 0 0 10px;
@@ -5112,6 +5113,8 @@ footer .widget_list li a {
 #floating-icon a:hover,
 #floating-icon span:hover{
 	right:0;
+	min-width: 200px;
+
 }
 
 #floating-icon i{
