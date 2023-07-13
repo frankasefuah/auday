@@ -3022,12 +3022,12 @@ span.teaser {
 }
 
 .fa-facebook{background:#3e5a9b;}
-.fa-twitter{background:#55aded;}
-.fa-google-plus{background:#df4f37;}
-.fa-linkedin{background:#0075ad;}
+.fa-twitter{background:#1DA1F2;}
+/* .fa-google-plus{background:#df4f37;} */
+.fa-linkedin{background:#0077B5;}
+.fa-flickr {background: #0063db;}
+.fa-youtube {background: #ff0000;}  
 .fa-rss{background:#fb6506;}
-
-
 /*
 	.social-icons .fa-facebook{	background:#305fb3;	}
 	.social-icons .fa-twitter{	background:#00d7d5;	}
