@@ -5113,7 +5113,7 @@ footer .widget_list li a {
 #floating-icon a:hover,
 #floating-icon span:hover{
 	right:0;
-	min-width: 200px;
+	min-width: 150px;
 
 }
 
