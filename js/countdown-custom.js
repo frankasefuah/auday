@@ -3,7 +3,7 @@
 
     var year = 2023;
     var month = 11;
-    var date = 12;
+    var date = 6;
     var time = 0;
 
     month = month - 1;
